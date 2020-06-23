@@ -14,13 +14,13 @@ body	{
 	background: url(bubbles.png);
 	position: fixed;
 	top:250px;
-	left:300px;
+	left:250px;
 }
 
 #photos {
 	background: url(photos.png);
 	position: fixed;
-	top:400px;
+	top:450px;
 	left:700px;
 	border: none;
 }
