@@ -12,7 +12,6 @@ body	{
 	padding-top: 10%;
 	padding-left: 40%;
 	transform: scaleY(-1);
-	transform: scaleX(-1);
 	background: bubbles.png;
 }
 
