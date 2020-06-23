@@ -2,12 +2,12 @@ body	{
 	background-color: black;
 }
 
-#myVideo {
+#written {
 	padding-left: 10%;
-	padding-top: 0%;
+	padding-top: 20%;
 }
 
 #bubbles {
-	padding-top: 2%;
-	padding-left: 30%;
+	padding-top: 10%;
+	padding-left: 50%;
 }
