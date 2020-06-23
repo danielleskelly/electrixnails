@@ -20,6 +20,6 @@ body	{
 #photos {
 	background: url(photos.png);
 	position: fixed;
-	top:500px;
-	left:500px;
+	top:400px;
+	left:600px;
 }
