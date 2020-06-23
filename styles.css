@@ -4,9 +4,10 @@ body	{
 
 #myVideo {
 	padding-left: 10%;
+	padding-top: 0%;
 }
 
 #bubbles {
-	padding-top: 0%;
-	padding-left: 10%;
+	padding-top: 2%;
+	padding-left: 30%;
 }
