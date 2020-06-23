@@ -3,6 +3,10 @@ body	{
 }
 
 #myVideo {
-	padding-left: 60%;
+	padding-left: 50%;
 	padding-top: 30%;
+}
+
+#myVideo2 {
+	animation-delay:2s;
 }
