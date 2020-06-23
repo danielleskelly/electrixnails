@@ -5,9 +5,11 @@ body	{
 #written {
 	padding-left: 30%;
 	padding-top: 0%;
+	background: "written.png";
 }
 
 #bubbles {
 	padding-top: 10%;
 	padding-left: 50%;
+	background:"bubbles.png";
 }
