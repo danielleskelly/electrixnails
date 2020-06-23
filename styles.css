@@ -13,8 +13,8 @@ body	{
 	transform: scaleY(-1);
 	background: url(bubbles.png);
 	position: fixed;
-	top:150px;
-	left:150px;
+	top:500px;
+	left:5000px;
 }
 
 #photos {
