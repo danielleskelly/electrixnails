@@ -12,9 +12,10 @@ body	{
 	transform: scaleY(-1);
 	background: url(bubbles.png);
 	position: relative;
-	padding-left: 20%;
+	padding-left: 5%;
 }
 
 #photos {
 	background: url(photos.png);
+	padding-left: 20%;
 }
