@@ -5,7 +5,7 @@ body	{
 #written {
 	padding-left: 30%;
 	padding-top: 0%;
-	background-image: "written.png" ;
+	background-image: url("written.png");
 }
 
 #bubbles {
