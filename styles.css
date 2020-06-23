@@ -21,5 +21,6 @@ body	{
 	background: url(photos.png);
 	position: fixed;
 	top:400px;
-	left:600px;
+	left:700px;
+	border: none;
 }
