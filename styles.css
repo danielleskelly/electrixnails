@@ -26,9 +26,17 @@ body	{
 }
 
 #youtube {
-	background: url(photos.png);
+	background: url(youtube.png);
 	position: fixed;
 	top:550px;
 	left:450px;
+	border: none;
+}
+
+#aboutme {
+	background: url(aboutme.png);
+	position: fixed;
+	top:300px;
+	left:550px;
 	border: none;
 }
