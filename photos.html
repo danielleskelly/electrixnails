@@ -8,8 +8,8 @@
 	}
 	
 	.grid-container {
-		display:grid;
-		grid-template-columns: min-content min-content min-content;
+		display:inline-grid;
+		grid-template-columns: auto auto auto;
 		background-color: pink;
 		padding: 10px;
 		border-color: black;
@@ -20,14 +20,13 @@
 		background-color: black;
 		border: 1px solid pink;
 		padding:20px;
-		width: 33%;
 	}
 </style>
 </head>
 <body>
 <div class="grid-container">
-  <div class="grid-item"><img src="house.jpg";></div>
-  <div class="grid-item"><img src="622nails.jpg";></div>
+  <div class="grid-item"><img src="house.jpg" width="33%";></div>
+  <div class="grid-item"><img src="622nails.jpg" width="33%";></div>
   <div class="grid-item">3</div>
   <div class="grid-item">4</div>
   <div class="grid-item">5</div>
