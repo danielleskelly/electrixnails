@@ -11,11 +11,13 @@ body	{
 #bubbles {
 	padding-top: 10%;
 	padding-left: 40%;
+	transform: scaleY(-1);
+	transform: scaleX(-1);
 	background: bubbles.png;
 }
 
 #photos {
 	padding-top: 0%;
-	padding-left: 80%;
+	padding-left: 70%;
 	background: bubbles.png;
 }
