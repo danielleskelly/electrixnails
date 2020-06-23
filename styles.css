@@ -19,4 +19,7 @@ body	{
 
 #photos {
 	background: url(photos.png);
+	position: fixed;
+	top:500px;
+	left:500px;
 }
