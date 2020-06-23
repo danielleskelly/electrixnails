@@ -44,7 +44,7 @@ body	{
 #services {
 	background: url(services.png);
 	position: fixed;
-	top:375px;
-	left:750px;
+	top:350px;
+	left:850px;
 	border: none;
 }
