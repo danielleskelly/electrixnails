@@ -4,11 +4,14 @@ body	{
 
 #written {
 	background-image: url(written.png);
+	position: absolute;
 }
 
 #bubbles {
 	transform: scaleY(-1);
 	background: url(bubbles.png);
+	position: relative;
+	padding-left: 20%;
 }
 
 #photos {
