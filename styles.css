@@ -3,20 +3,14 @@ body	{
 }
 
 #written {
-	padding-left: 5%;
-	padding-top: 0%;
 	background-image: url(written.png);
 }
 
 #bubbles {
-	padding-top: 10%;
-	padding-left: 5%;
 	transform: scaleY(-1);
 	background: url(bubbles.png);
 }
 
 #photos {
-	padding-top: 0%;
-	padding-left: 60%;
 	background: url(photos.png);
 }
