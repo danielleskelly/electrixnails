@@ -48,3 +48,11 @@ body	{
 	left:850px;
 	border: none;
 }
+
+#appointments {
+	background: url(appointments.png);
+	position: fixed;
+	top:500px;
+	left:900px;
+	border: none;
+}
