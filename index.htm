@@ -21,6 +21,30 @@
 	font-family: 'vgg_fontregular';
 }
 
+	#written {
+		font-size: 40pt;
+		margin-left: 10%;
+	}
+
+	#tagline {
+		font-size: 25pt;
+		margin-left: 40%;
+		margin-top: -9%;
+	}
+
+	#car {
+		position: absolute;
+		margin-top: -1%;
+		-webkit-animation: alternate;
+		-webkit-animation-name: run;
+		-webkit-animation-duration: 5s;
+		animation-fill-mode: forwards;
+	}
+	@-webkit-keyframes run {
+		0% { left: 0; }
+		100% { left: 20%; }
+	}
+
 </style>
 <script type="text/javascript">
 	var i = 0;
@@ -38,15 +62,11 @@
 </head>
 <body onload="typeWriter()">
 
-<div id="written"></div>
+<p id="written"></p>
 
-<a id="tagline">
-<video width="50%" height="40%" autoplay muted>
-  <source src="tagline.mp4" type="video/mp4">
-</video>
-</a>
+<p id="tagline" >Mobile Nail Tech</p>
 
-<img src="car.png" height="20%" width="40%" id="car">
+<div id="car"><img src="car.png" height="200px" width="400px"></div>
 
 <a href="https://www.instagram.com/braceyourfacenails/" id="photos" >Instagram</a>
 
