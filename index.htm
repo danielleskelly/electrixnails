@@ -21,16 +21,24 @@
 	font-family: 'vgg_fontregular';
 }
 
-
-
-
 </style>
-</head>
-<body>
+<script type="text/javascript">
+	var i = 0;
+	var txt = 'Brace Your Face Nails'; /* The text */
+	var speed = 50; /* The speed/duration of the effect in milliseconds */
 
-<video width="60%" height="60%" autoplay muted id="written">
-  <source src="written.mp4" type="video/mp4">
-</video>
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("written").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+</head>
+<body onload="typeWriter()">
+
+<div id="written"></div>
 
 <a id="tagline">
 <video width="50%" height="40%" autoplay muted>
