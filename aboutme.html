@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Electrix Nails About Me</title>
+<title>Brace Your Face Nails About Me</title>
 <style type="text/css">
 	@font-face {
     	font-family: 'vgg_fontregular';
@@ -11,36 +11,60 @@
 
 	body {
 		background-color: black;
-		color: pink;
+		color: hsl(338,92%,72%);
 		font-size: 20pt;
 		font-family: 'vgg_fontregular';
 	}
 	
 	#pic {
-		position: relative;
-		top: 50px;
-		left: 60%;
+		margin-left: 700px;
+		margin-top: -50px;
 	}
 
 	#written {
-		position:relative;
-		top:-25%;
-		left:3%;
+		margin-left: 20px;
 	}
 
+	#hello {
+		text-align: center;
+		margin-top: -50px;
+	}
+
+	#intro {
+		text-align:center;
+	}
+
+	#contact {
+		display: block;
+		margin-top: 200px;
+		margin-left: 150px;
+		}
+
 </style>
+<script type="text/javascript">
+	var i = 0;
+	var txt = 'Brace Your Face Nails'; /* The text */
+	var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("written").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 </head>
-<body>
-	<a id="written" href="/index.htm">
-		<video width="20%" height="12%" autoplay muted>
-			  <source src="written.mp4" type="video/mp4">
-		</video>
-	</a>
+<body onload="typeWriter()">
+	
+	<p id="written"></p>
 
-	<img id="pic" src="daniellepic.jpg"; height="15%"; width="15%";>
+	<img id="pic" src="daniellepic.jpg"; height="20%"; width="20%";>
 
-	<h1 style="text-align: center;"><u>Hello!</u></h1>
-	<p style="text-align:center;">My name is Danielle E.S Kelly and I am an aspiring nail tech. </p>
+	<h1 id="hello"><u>Hello!</u></h1>
+	<p id="intro">My name is Danielle Sullivan and I am an aspiring nail tech and entrepreneur. I took a long journey to nail technician but now nails are my life. It makes my day to make a client happy with a good set of nails or toes. I am still in school, and making progress daily on my nail skills and in my product business ventures. I truly hope you will follow me on my adventure through instagram and on youtube, and I hope to meet your nails soon.</p>
+
+	<a id="contact">Contact Me daniellee.skelly@gmail.com 918-973-0082</a>
 
 </body>
 </html>

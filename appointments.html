@@ -11,7 +11,7 @@
 
 	body {
 		background-color: black;
-		color: pink;
+		color: hsl(338,92%,72%);
 		font-size: 20pt;
 		font-family: 'vgg_fontregular';
 	}
@@ -22,14 +22,30 @@
 		left:3%;
 	}
 
+	#contact {
+		display: block;
+		margin-top: 200px;
+		margin-left: 150px;
+		}
+
 </style>
+<script type="text/javascript">
+	var i = 0;
+	var txt = 'Brace Your Face Nails'; /* The text */
+	var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("written").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 </head>
-<body>
-	<a id="written" href="/index.htm">
-		<video width="16%" height="8%" autoplay muted>
-			  <source src="written.mp4" type="video/mp4">
-		</video>
-	</a>
+<body onload="typeWriter()">
+	
+	<p id="written"></p>
 
 	<h1 style="text-align: center;"><u>Notice!</u></h1>
 	<p style="text-align:center;">Before making an appointment you should be aware:</p>
@@ -38,9 +54,7 @@
 	<p style="text-align:center;">Appointments will be much longer than a normal nail appointment. It will take me time to do it right.</p>
 	<p style="text-align:center;">I follow all proper protocols for sanitization and use disposable items when neccesary. I also have incorporated the new requirements set out by the CDC in response to COVID-19.</p>
 
-	<h1 style="text-align: center;"><u>Contact Me</u></h1>
-	<p style="text-align:center;">daniellee.skelly@gmail.com</p>
-	<p style="text-align:center;">918-973-0082</p>
+	<a id="contact">Contact Me daniellee.skelly@gmail.com 918-973-0082</a>
 
 </body>
 </html>

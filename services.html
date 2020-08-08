@@ -11,7 +11,7 @@
 
 	body {
 		background-color: black;
-		color: pink;
+		color: hsl(338,92%,72%);
 		font-size: 20pt;
 		font-family: 'vgg_fontregular';
 	}
@@ -22,35 +22,60 @@
 		left:3%;
 	}
 
+	#contact {
+		display: block;
+		margin-top: 200px;
+		margin-left: 150px;
+		}
+
 </style>
+<script type="text/javascript">
+	var i = 0;
+	var txt = 'Brace Your Face Nails'; /* The text */
+	var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("written").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 </head>
-<body>
-	<a id="written" href="/index.htm">
-		<video width="16%" height="8%" autoplay muted>
-			  <source src="written.mp4" type="video/mp4">
-		</video>
-	</a>
+<body onload="typeWriter()">
+	
+	<p id="written"></p>
 
-	<h1 style="text-align:center;"><u>Basic and Gel Manicure</u></h1>
-	<p style="text-align:center;">Hand Sanitization and Hand Massage with Tocca Hand Lotion</p>
-	<p style="text-align:center;">Nail Shaping</p>
-	<p style="text-align:center;">OPI, Holo Taco, Loud Lacquer, Chanel and Dior Nail Polish</p>
-	<p style="text-align:center;">Markartt and Beetles Gel Nail Polish</p>
-	<p style="text-align:center;">Soak Off and Polish Change Also Available</p>
+	<h1 style="text-align:center;"><u>Rock Star Tier</u></h1>
+	<p style="text-align:center;">Rock Star Fingers $20</p>
+	<p style="text-align:center;">Rock Star Toes $20</p>
 
-	<h1 style="text-align:center;"><u>Polygel and Acrylic Enhancements</u></h1>
-	<p style="text-align:center;">Basic and Gel Manicure</p>
-	<p style="text-align:center;">Decorative Inlays - Glitters, Dried Flowers</p>
-	<p style="text-align:center;">Decorative Toppers - Foils, Decals</p>
-	<p style="text-align:center;">Pink & Blacks, Pink & Whites and Glow in the Dark</p>
-	<p style="text-align:center;">Chrome Top and Ombre</p>
+	<h1 style="text-align:center;"><u>Spa Tier</u></h1>
+	<p style="text-align:center;">Spa Manicure $60</p>
+	<p style="text-align:center;">Spa Pedicure $60</p>
 
-	<h1 style="text-align:center;"><u>Pedicures</u></h1>
-	<p style="text-align:center;">Foot Sanitization and Foot Massage with Milk Vegan Moisturizer</p>
-	<p style="text-align:center;">Nail Shaping</p>
-	<p style="text-align:center;">OPI, Holo Taco, Loud Lacquer, Chanel and Dior Nail Polish</p>
-	<p style="text-align:center;">Markartt and Beetles Gel Nail Polish</p>
-	<p style="text-align:center;">Soak Off and Polish Change Also Available</p>
+	<h1 style="text-align:center;"><u>Full Sets</u></h1>
+	<p style="text-align:center;">Acrylics $40</p>
+	<p style="text-align:center;">UV/LED Polygel $50</p>
+	<p style="text-align:center;">Encapsulation $20</p>
+	<p style="text-align:center;">Encapsulation One Nail Only $5</p>
+	<p style="text-align:center;">Milk Bath Nails $30</p>
+	<p style="text-align:center;">Glitter $5 PER GLITTER</p>
+	<p style="text-align:center;">Soak Off $20</p>
+
+	<h1 style="text-align:center;"><u>Add Ons</u></h1>
+	<p style="text-align:center;">Paraffin Wax Treatment $20</p>
+	<p style="text-align:center;">Nail Art $30</p>
+	<p style="text-align:center;">Nail Art One Nail Only $5</p>
+	<p style="text-align:center;">Foil Topper $5</p>
+	<p style="text-align:center;">Decorative 2nd Coat (Suspish, Holo Taco) $5</p>
+	<p style="text-align:center;">Nail Decals $5</p>
+	<p style="text-align:center;">Ombre Effect $15</p>
+	<p style="text-align:center;">French Tips $20</p>
+	<p style="text-align:center;"></p>
+
+	<a id="contact">Contact Me daniellee.skelly@gmail.com 918-973-0082</a>
 
 </body>
 </html>
